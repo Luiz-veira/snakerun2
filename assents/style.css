@@ -1,0 +1,123 @@
+@charset "UTF-08";
+
+/* 
+*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body,
+main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-color: #696969a1; */
+    background-image: url("./metal-gear-solid.webp");
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+    margin-top: 1em;
+}
+
+body,
+html{
+    background-image: linear-gradient(to top, #353535, #696969a1, #353535);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #ff0000;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+canvas {
+    background-color: rgba(0, 0, 0, 0.903);
+    align-items: center;
+    border: 5px solid #8B0000;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    color: #ff0000;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 1.8rem;
+    display: block;
+    margin-top: 0.5em;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    font-family: "Press Start 2P", system-ui;
+
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #f5efea;
+}
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f5efea;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #696969a1;
+    color: #f5efea;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
